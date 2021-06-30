@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1600px;
+    margin: auto;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    background-color: #14171d;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header{
+    background-color: #14171d;
+
+}
+
+.logo{
+    margin-left: 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.menu__list{
+    display: flex;
+    margin-top: 46px;
+}
+
+.menu__list-item{
+    margin-right: 30px;
+}
+
+.menu__list-item:first-child{
+    margin-left: 150px;
+}
+
+.menu__list-link{
+    color: #898B8E;
+    font-weight: bold;
+    font-size: 18px;
+    transition:a, 300ms ease-in-out;
+}
+
+.menu__list-link:hover{
+    color: #FF9C00;
+}
+.register{
+    display: inline-block;
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.log-in{
+    background: linear-gradient(77.23deg, #FFFFFF -175.03%, rgba(255, 255, 255, 0) 37.51%), #1F2941;
+    transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius:10px;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.log-up{
+    background: linear-gradient(84.26deg, #FFFFFF -35.25%, rgba(255, 255, 255, 0) 29.04%), #FF9C00;
+    transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius:10px;
+    cursor: pointer;
+    width: 199px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.hr{
+    background: #1D212A;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.section__slider{
+    margin-top: 20px;
+}
+
+.slider{
+   margin-left:40px;
+}
