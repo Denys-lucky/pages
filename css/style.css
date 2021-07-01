@@ -105,3 +105,27 @@ a {
 .slider{
    margin-left:40px;
 }
+
+.coin__img{
+    z-index: 1;
+}
+
+.bonus__block{
+    width: 1510px;
+    height: 230px;
+    background: #1D212A;
+    border-radius: 20px;
+}
+
+.bonus__title{
+    color:#fff;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 26px;
+    padding-left: 50px;
+    padding-top: 29px;
+}
+
+.bonus__yellow-text{
+    color: #FEA603;
+    padding-left: 50px;
+}
