@@ -1,1 +1,1 @@
->  https://denys-lucky.github.io/pages/
+>  https://Develop-05.github.io/pages/
